@@ -1,0 +1,49 @@
+.card{
+    width: 270px;
+    height: 350px;
+    border: 1px solid grey;
+    margin-top:20px;
+    border-radius: 8px;
+   margin-bottom: 40px;
+   margin-left: 20%;
+}
+
+.card img{
+    width: 250px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+
+}
+.title{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.btn-detail{
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 25%;
+    padding: 6px;
+    border:none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(232, 99, 55);
+}
+.btn-detail:hover{
+    background-color: rgb(244, 64, 4);
+}
+
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 270px;
+        height: 350px;
+        border: 1px solid grey;
+        margin-top:20px;
+        border-radius: 8px;
+       margin-bottom: 40px;
+      margin-right:  30px;
+    }
+}

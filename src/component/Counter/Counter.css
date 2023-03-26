@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.count-container {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4))
+        /* if liner-gradient needed width height must otherwise liner gradient does not work */
+}
+
+.counter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+
+    /* if position absolute with must needed ,otherwise flex does not work */
+    font-size: 80px;
+    top: 45%;
+    color: azure;
+   
+}
+.plus{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 30px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .counter {
+        flex-direction: column-reverse;
+        position: absolute;
+        width: 100%;
+        
+        /* if position absolute with must needed ,otherwise flex does not work */
+        font-size: 80px;
+        top: 25%;
+        color: rgb(200, 243, 243);
+        
+       
+    }
+}
